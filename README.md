@@ -1,4 +1,5 @@
 # image-cropper
+fork https://github.com/1977474741/image-cropper.git 上传到`npm`
 ## 一款高性能的小程序图片裁剪插件，支持旋转。
 ###### `1.功能强大。`
 ###### `2.性能超高超流畅，大图毫无卡顿感。`
@@ -11,7 +12,7 @@
 #### 1.json文件中添加image-cropper
 ```json
     "usingComponents": {
-       "image-cropper": "../image-cropper/image-cropper"
+       "image-cropper":"@antzy/image-cropper/image-cropper"
     },
     "navigationBarTitleText": "裁剪图片",
     "disableScroll": true
